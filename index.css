@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 64px;
+    
+}
+
+#card{
+    width: 511px;
+    height: 330px;
+    border-radius: 8px;
+    background: gray;
+}
