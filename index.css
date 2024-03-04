@@ -75,6 +75,36 @@ body {
     color: white;
     z-index: 2;
 }
+#card-container:hover .overlay {
+    width: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+  .overlay {
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    background-color: rgba(255, 0, 0, 0.5);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    
+  }
+  #card-container:hover .title {
+    opacity: 0;
+}
+
 
 /* This is small mobile */
 
@@ -87,6 +117,10 @@ body {
         margin: auto;
         margin-top: 20px;
 
+    }
+
+    .text{
+        font-size: 15px;
     }
 
     .flex1 {
